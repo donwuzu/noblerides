@@ -14,20 +14,21 @@
         <div class="bg-white shadow-lg rounded-xl overflow-hidden">
             <div class="overflow-x-auto">
                 <table class="min-w-full divide-y divide-gray-200">
-                    <thead class="bg-blue-800 text-white text-xs uppercase tracking-wider">
+                   <thead class="bg-blue-900 text-white text-sm uppercase font-semibold tracking-wide">
                         <tr>
-                            <th class="text-gray-500 px-4 py-3 text-left">#</th>
-                            <th class="text-gray-500 px-4 py-3 text-left">Name</th>
-                            <th class="text-gray-500 px-4 py-3 text-left">Email</th>
-                            <th class="text-gray-500 px-4 py-3 text-left">Phone</th>
-                            <th class="text-gray-500 px-4 py-3 text-left">Pickup</th>
-                            <th class="text-gray-500 px-4 py-3 text-left">Dropoff</th>
-                            <th class="text-gray-500 px-4 py-3 text-left">Date & Time</th>
-                            <th class="text-gray-500 px-4 py-3 text-left">Service</th>
-                            <th class="text-gray-500 px-4 py-3 text-left">Vehicle</th>
-                            <th class="text-gray-500 px-4 py-3 text-center">Actions</th>
+                            <th class="px-4 py-3 text-left">#</th>
+                            <th class="px-4 py-3 text-left">Name</th>
+                            <th class="px-4 py-3 text-left">Email</th>
+                            <th class="px-4 py-3 text-left">Phone</th>
+                            <th class="px-4 py-3 text-left">Pickup</th>
+                            <th class="px-4 py-3 text-left">Dropoff</th>
+                            <th class="px-4 py-3 text-left">Date & Time</th>
+                            <th class="px-4 py-3 text-left">Service</th>
+                            <th class="px-4 py-3 text-left">Vehicle</th>
+                            <th class="px-4 py-3 text-center">Actions</th>
                         </tr>
-                    </thead>
+                        </thead>
+
                     <tbody class="bg-white divide-y divide-gray-100">
                         @foreach ($bookings as $index => $booking)
                         <tr class="hover:bg-gray-50 transition">

@@ -13,7 +13,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <link rel="icon" href="/images/noblefavicon.jpg" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
  <style>
     /* Improved layout structure */
@@ -355,6 +355,14 @@
     </div>
 </div>
 
+
+ <footer class="bg-blue-700 text-white py-4 mt-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            &copy; {{ date('Y') }} Noble Rides. All rights reserved.
+        </div>
+    </footer>
+
+
 </div>
 
 <!-- WhatsApp Button -->
@@ -439,5 +447,12 @@
         }
     });
 </script>
+
+
+
+
+
 </body>
+
+
 </html>

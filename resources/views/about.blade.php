@@ -28,7 +28,7 @@
                 <div>
                     <h3 class="text-2xl font-bold text-gray-800 mb-4">Who We Are</h3>
                     <p class="text-gray-600 mb-4 leading-relaxed">
-                        Founded in 2015, Noble Rides has grown from a small local service to a premier transportation provider serving thousands of satisfied customers annually. Our journey has been fueled by an unwavering commitment to exceptional service and customer satisfaction.
+                        Founded in 2024, Noble Rides has grown from a small local service to a premier transportation provider serving hundreds of satisfied customers. Our journey has been fueled by an unwavering commitment to exceptional service and customer satisfaction.
                     </p>
                     <p class="text-gray-600 leading-relaxed">
                         With a fleet of late-model, well-maintained vehicles and professionally trained drivers, we ensure every journey is comfortable, safe, and worry-free. Our team undergoes rigorous background checks and continuous training to maintain our high standards.
@@ -119,7 +119,7 @@
                 <div class="text-lg">Happy Customers</div>
             </div>
             <div class="p-6">
-                <div class="text-4xl font-bold mb-2">15+</div>
+                <div class="text-4xl font-bold mb-2">5+</div>
                 <div class="text-lg">Professional Drivers</div>
             </div>
             <div class="p-6">
@@ -139,7 +139,7 @@
     <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl font-bold text-gray-800 mb-6">Ready to Experience Noble Rides?</h2>
         <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            Join thousands of satisfied customers who trust us for their transportation needs
+            Join hundreds of satisfied customers who trust us for their transportation needs
         </p>
         <div class="flex flex-col sm:flex-row justify-center gap-4">
             <a href="{{ route('booking.create') }}" 

@@ -26,7 +26,7 @@
             <input id="password_confirmation" type="password" name="password_confirmation" required class="w-full mt-1 border-gray-300 rounded p-2">
         </div>
 
-        <button type="submit" class="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700">
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">
             Register
         </button>
 

@@ -14,9 +14,9 @@
         <div class="bg-white shadow-lg rounded-xl overflow-hidden">
             <div class="overflow-x-auto">
                 <table class="min-w-full divide-y divide-gray-200">
-                    <thead class="bg-blue-800 text-gray-800 text-xs uppercase tracking-wider">
+                  <thead class="bg-blue-900 text-white text-sm uppercase font-semibold tracking-wide">
                         <tr>
-                           <th class="text-gray-500 px-4 py-3 text-left">#</th>
+                            <th class="px-4 py-3 text-left">#</th>
                             <th class="px-4 py-3 text-left">Name</th>
                             <th class="px-4 py-3 text-left">Email</th>
                             <th class="px-4 py-3 text-left">Phone</th>
@@ -25,7 +25,8 @@
                             <th class="px-4 py-3 text-left">Received</th>
                             <th class="px-4 py-3 text-center">Actions</th>
                         </tr>
-                    </thead>
+                  </thead>
+
                   <tbody class="bg-white divide-y divide-gray-100 text-gray-800">
 @foreach ($messages as $index => $msg)
 <tr class="hover:bg-gray-50 transition" x-data="{ open: false }">

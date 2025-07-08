@@ -62,7 +62,7 @@
                         </div>
 
                         <div>
-                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email (Optional)</label>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email *</label>
                             <input type="email" name="email" id="email" 
                                    class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
                             @error('email')
