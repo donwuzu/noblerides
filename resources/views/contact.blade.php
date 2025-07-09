@@ -51,7 +51,7 @@
                     </div>
                     
                     <div>
-                        <label for="phone" class="block font-medium text-gray-700 mb-1">Phone Number (Optional)</label>
+                        <label for="phone" class="block font-medium text-gray-700 mb-1">Phone Number </label>
                         <input type="tel" name="phone" id="phone" 
                                class="w-full border border-gray-300 rounded-lg px-3 sm:px-4 py-2 sm:py-2.5 md:py-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
                     </div>

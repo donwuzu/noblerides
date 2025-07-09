@@ -31,6 +31,8 @@ Route::middleware(['auth'])->prefix('admin')->group(function () {
     Route::get('/bookings', [DashboardController::class, 'bookings'])->name('admin.bookings');
     Route::get('/messages', [DashboardController::class, 'messages'])->name('admin.messages');
     Route::delete('/messages/{message}', [DashboardController::class, 'destroyMessage'])->name('admin.messages.destroy');
+        Route::delete('/bookings/{booking}', [DashboardController::class, 'destroyBooking'])->name('admin.bookings.destroy');
+
 });
 
 

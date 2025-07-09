@@ -44,4 +44,15 @@ public function messages()
             ->with('success', 'Message deleted successfully');
     }
 
+     public function destroyBooking(Booking $booking)
+    {
+        // Optional authorization check
+        // $this->authorize('delete', $message);
+        
+        $booking->delete();
+        
+        return redirect()
+            ->route('admin.bookings')
+            ->with('success', 'Booking deleted successfully');
+    }
 }

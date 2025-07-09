@@ -4,7 +4,7 @@
 <!-- Hero Section -->
 <section class="relative bg-gradient-to-r from-blue-800 to-blue-600 text-white py-20">
     <div class="container mx-auto px-4 text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-6">Our Story</h1>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">DRIVEN BY DISTINCTION</h1>
         <p class="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">
             Redefining transportation with excellence, one ride at a time
         </p>
@@ -75,7 +75,7 @@
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Core Values</h2>
                 <div class="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
                 <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-                    The principles that guide everything we do
+                    DRIVEN BY DISTINCTION
                 </p>
             </div>
 

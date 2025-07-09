@@ -8,22 +8,22 @@
 
         <div>
             <label for="name" class="block text-sm font-medium">Full Name</label>
-            <input id="name" type="text" name="name" required class="w-full mt-1 border-gray-300 rounded p-2" autofocus>
+            <input id="name" type="text" name="name" required class="w-full mt-1 border border-gray-300 rounded p-2 focus:border-blue-500 focus:ring focus:ring-blue-200 transition" autofocus>
         </div>
 
         <div>
             <label for="email" class="block text-sm font-medium">Email Address</label>
-            <input id="email" type="email" name="email" required class="w-full mt-1 border-gray-300 rounded p-2">
+            <input id="email" type="email" name="email" required class="w-full mt-1 border border-gray-300 rounded p-2 focus:border-blue-500 focus:ring focus:ring-blue-200 transition">
         </div>
 
         <div>
             <label for="password" class="block text-sm font-medium">Password</label>
-            <input id="password" type="password" name="password" required class="w-full mt-1 border-gray-300 rounded p-2">
+            <input id="password" type="password" name="password" required class="w-full mt-1 border border-gray-300 rounded p-2 focus:border-blue-500 focus:ring focus:ring-blue-200 transition">
         </div>
 
         <div>
             <label for="password_confirmation" class="block text-sm font-medium">Confirm Password</label>
-            <input id="password_confirmation" type="password" name="password_confirmation" required class="w-full mt-1 border-gray-300 rounded p-2">
+            <input id="password_confirmation" type="password" name="password_confirmation" required class="w-full mt-1 border border-gray-300 rounded p-2 focus:border-blue-500 focus:ring focus:ring-blue-200 transition">
         </div>
 
         <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">
