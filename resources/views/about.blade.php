@@ -28,11 +28,10 @@
                 <div>
                     <h3 class="text-2xl font-bold text-gray-800 mb-4">Who We Are</h3>
                     <p class="text-gray-600 mb-4 leading-relaxed">
-                        Founded in 2024, Noble Rides has grown from a small local service to a premier transportation provider serving hundreds of satisfied customers. Our journey has been fueled by an unwavering commitment to exceptional service and customer satisfaction.
+                        At Noble Rides, we are committed to growing responsibly, investing in people, and delivering transport solutions that reflect quality, efficiency, and respect.
+                        We are more than a ride — we are your trusted travel partner.
                     </p>
-                    <p class="text-gray-600 leading-relaxed">
-                        With a fleet of late-model, well-maintained vehicles and professionally trained drivers, we ensure every journey is comfortable, safe, and worry-free. Our team undergoes rigorous background checks and continuous training to maintain our high standards.
-                    </p>
+                   
                 </div>
              <div class="bg-blue-100 rounded-xl h-60 w-100 flex items-center justify-center p-8">
                 <div class="text-center">
@@ -56,11 +55,9 @@
                 <div>
                     <h3 class="text-2xl font-bold text-gray-800 mb-4">Our Approach</h3>
                     <p class="text-gray-600 mb-4 leading-relaxed">
-                        We believe transportation should be more than just getting from point A to B. Our customer-first philosophy means we pay attention to every detail - from spotless vehicles to courteous drivers who know the best routes.
+                        Noble Rides exists to redefine the standard of executive and everyday transport in Kenya by offering safe, punctual, and comfortable services to individuals, families, corporates, and travel partners.
                     </p>
-                    <p class="text-gray-600 leading-relaxed">
-                        Our innovative technology platform ensures real-time tracking, seamless booking, and transparent pricing. Whether you need a quick ride across town or specialized transportation services, we've got you covered.
-                    </p>
+                    
                 </div>
             </div>
         </div>
@@ -72,12 +69,20 @@
     <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Core Values</h2>
-                <div class="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-                    DRIVEN BY DISTINCTION
-                </p>
-            </div>
+    <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Core Values</h2>
+    <div class="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
+    
+    <ul class="text-left max-w-2xl mx-auto text-xl text-gray-600 list-disc list-inside space-y-2">
+        <li><strong>Professionalism</strong> – We do things the right way, always.</li>
+        <li><strong>Safety</strong> – Our riders and drivers come first.</li>
+        <li><strong>Reliability</strong> – We are there when we say we will be.</li>
+        <li><strong>Excellence</strong> – We aim higher than expectations.</li>
+        <li><strong>Integrity</strong> – We operate with honesty and transparency.</li>
+        <li><strong>Customer-Centricity</strong> – We serve with intention and care.</li>
+        <li><strong>Innovation</strong> – We use smart tools to improve every experience.</li>
+    </ul>
+</div>
+
 
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
@@ -88,7 +93,7 @@
                         <h3 class="text-xl font-bold text-gray-800">Our Mission</h3>
                     </div>
                     <p class="text-gray-600">
-                        To redefine everyday transport with top-tier service, reliability, and trust. We're committed to making every journey exceptional through innovation, professionalism, and attention to detail.
+                        To deliver exceptional transport services through a modern fleet, professional drivers, and a commitment to comfort, punctuality, and client satisfaction — one ride at a time.
                     </p>
                 </div>
 
@@ -100,7 +105,7 @@
                         <h3 class="text-xl font-bold text-gray-800">Our Vision</h3>
                     </div>
                     <p class="text-gray-600">
-                        To be the most reliable and preferred choice in personal and professional transportation across East Africa, setting industry standards for safety, comfort, and customer satisfaction.
+                        To become East Africa’s most trusted and preferred provider of premium, reliable, and safe executive transport solutions.
                     </p>
                 </div>
             </div>
