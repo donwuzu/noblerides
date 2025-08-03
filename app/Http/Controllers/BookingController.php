@@ -6,6 +6,9 @@ use App\Models\Booking;
 
 use Illuminate\Http\Request;
 
+use Illuminate\Support\Facades\Mail;
+use App\Mail\BookingConfirmation;
+
 class BookingController extends Controller
 {
     public function create()
@@ -32,6 +35,10 @@ class BookingController extends Controller
        
     Booking::create($validated);
 
+     // Send booking email
+    Mail::to('info@noblerides.com')->send(new BookingConfirmation($validated));
+
+    
     return back()->with('success', 'Booking received!');
     }
 
