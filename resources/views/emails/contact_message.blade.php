@@ -51,8 +51,8 @@
         
         <!-- Footer -->
         <div style="background-color: #f8fafc; padding: 16px 28px; text-align: center; border-top: 1px solid #e2e8f0;">
-            <p style="color: #64748b; font-size: 13px; margin: 0;">
-                This message was sent via your website contact form on {{ now()->format('F j, Y \a\t g:i A') }}
+           <p style="color: #64748b; font-size: 13px; margin: 0;">
+                This message was sent via your website contact form on {{ now()->setTimezone('Africa/Nairobi')->format('F j, Y \a\t g:i A') }} (EAT)
             </p>
         </div>
     </div>

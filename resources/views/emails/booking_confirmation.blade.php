@@ -66,7 +66,7 @@
         <!-- Footer -->
         <div style="background-color: #f1f5f9; padding: 16px 28px; text-align: center; border-top: 1px solid #e2e8f0;">
             <p style="color: #64748b; font-size: 13px; margin: 0;">
-                This booking request was submitted via your website on {{ now()->format('F j, Y \a\t g:i A') }}
+                This message was sent via your website contact form on {{ now()->setTimezone('Africa/Nairobi')->format('F j, Y \a\t g:i A') }} (EAT)
             </p>
         </div>
     </div>
