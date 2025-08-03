@@ -36,9 +36,9 @@ class BookingController extends Controller
     Booking::create($validated);
 
      // Send booking email
-    Mail::to('info@noblerides.com')->send(new BookingConfirmation($validated));
+    Mail::to('info@noblerides.co.ke')->send(new BookingConfirmation($validated));
 
-    
+
     return back()->with('success', 'Booking received!');
     }
 
